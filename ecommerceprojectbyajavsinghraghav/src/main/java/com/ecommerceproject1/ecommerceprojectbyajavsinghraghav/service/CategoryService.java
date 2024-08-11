@@ -11,6 +11,7 @@ import java.lang.Long;
 
 @Service
 public class CategoryService {
+    System.out.prinln("categoryservice ");
     private CategoryRepository categoryRepository;
     public  CategoryService(CategoryRepository categoryRepository){
 

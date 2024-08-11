@@ -19,6 +19,7 @@ public class CategoryController {
         this.categoryService=categoryService;
 
         System.out.println(" this our categorycontroller");
+
     }
 @GetMapping("/{id}")
     public ResponseEntity<Long> getCategoryById(@PathVariable Long id ) {
